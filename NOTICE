@@ -16,9 +16,7 @@ Not under MIT; do not redistribute without a separate license:
 - Vendored auth / protocol trees
 - Private signing keys
 
-Official complete builds may embed a proprietary module and enforce a
-per-machine camera binding limit. Exceeded quota message:
-「使用受限，请联系作者处理。」
+Official complete builds may embed a proprietary module (not in this tree).
 
 3. Third-party
 --------------
