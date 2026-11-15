@@ -49,3 +49,4 @@ python3 -m m4probe.detect --json
 1. `python -m m4probe --doctor` 可运行  
 2. `python -m m4probe.detect` 可报告连接状态  
 3. 无 `m4install` / 专有实现源码  
+<img width="1440" height="900" alt="截屏2026-11-15 22 26 30" src="https://github.com/user-attachments/assets/76fb0b77-fe70-4d6c-8b05-8718ae1f0e4d" />
