@@ -22,6 +22,9 @@ BODYDATA.DAT
 *.DAT
 截屏*.png
 
+# Author-only push helper (lives in private monorepo ZM4/scripts/, not product)
+publish_github_release.sh
+
 # Editor / OS
 .idea/
 .vscode/
