@@ -1,6 +1,6 @@
 # A7m4(Z4M) firmware for mac
 基于大佬项目套壳适配mac端：https://github.com/Erlla/sony-a7m4-custom-firmware
-
+<img width="1440" height="900" alt="截屏2026-11-15 22 26 30" src="https://github.com/user-attachments/assets/76fb0b77-fe70-4d6c-8b05-8718ae1f0e4d" />
 脱敏导出的公开树：只做环境自检与 USB 连接检测。  
 **不含**完整安装实现，也**不含**分阶段操作剧本。
 
@@ -49,4 +49,4 @@ python3 -m m4probe.detect --json
 1. `python -m m4probe --doctor` 可运行  
 2. `python -m m4probe.detect` 可报告连接状态  
 3. 无 `m4install` / 专有实现源码  
-<img width="1440" height="900" alt="截屏2026-11-15 22 26 30" src="https://github.com/user-attachments/assets/76fb0b77-fe70-4d6c-8b05-8718ae1f0e4d" />
+
