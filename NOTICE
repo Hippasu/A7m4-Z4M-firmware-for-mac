@@ -1,0 +1,30 @@
+ZM4 / a7m4 — NOTICE
+===================
+
+Open-core product. The public repository is a diagnostic shell only.
+
+1. Public shell (MIT)
+---------------------
+Covered by LICENSE (MIT): host checks, USB connection detect, and the plugin
+loader contract in `m4probe/install_api.py`.
+
+2. Proprietary / closed
+-----------------------
+Not under MIT; do not redistribute without a separate license:
+
+- Install implementation and camera-write recipes
+- Vendored auth / protocol trees
+- Private signing keys
+
+Official complete builds may embed a proprietary module and enforce a
+per-machine camera binding limit. Exceeded quota message:
+「使用受限，请联系作者处理。」
+
+3. Third-party
+--------------
+PyUSB (BSD-style), libusb / libusb-package (LGPL-2.1), Python 3 (PSF).
+Protocol tables used only inside closed packages are not redistributed here.
+
+4. No warranty
+--------------
+Use at your own risk. This project is not affiliated with Sony.

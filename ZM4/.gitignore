@@ -1,0 +1,13 @@
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+pyproject.toml
+
+# Ed25519 keys (private must never enter public git)
+keys/quota_ed25519_priv.pem
+zm4_install/keys/quota_ed25519_priv.pem
+
+# Ed25519 keys (private must never enter public git)
+keys/quota_ed25519_priv.pem

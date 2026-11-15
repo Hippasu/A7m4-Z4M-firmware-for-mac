@@ -1,0 +1,15 @@
+# 部署约定：必须用「启动 m4probe 的同一个解释器」安装，推荐项目内隔离环境：
+#   python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt
+# 混用不同版本的 python3 / --user 会让 S2 报 No module named 'usb'。
+# 详见 README.md / HANDOFF.md 的「新机环境部署」章节。
+# S0-S1/S3 need nothing beyond the Python standard library and macOS system tools.
+# USB stack for connection detect:
+pyusb>=1.2.1,<2
+libusb-package>=1.0.26,<2
+# m4install worker build (Zig ELF compact):
+pyelftools>=0.30,<1
+
+# Optional, for the reviewed upstream authentication backend:
+# the two Sony-PMCA-RE files constants.py / crypto.py are NOT distributed here.
+# Obtain them from https://github.com/ma1co/Sony-PMCA-RE (pmca/usb/) or from the
+# vendor/sony_pmca folder of an official release ZIP, then pass --pmca-dir.

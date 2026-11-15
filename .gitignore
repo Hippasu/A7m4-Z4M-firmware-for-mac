@@ -1,0 +1,28 @@
+# Local / secrets — never publish
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+
+# Closed / machine-local (also stripped by export_public_tree.sh)
+ZM4/m4probe.local.json
+ZM4/auth_stage/
+ZM4/out/
+ZM4/dist/
+ZM4/build/
+ZM4/*.egg-info/
+ZM4/zm4_install/keys/quota_ed25519_priv.pem
+ZM4/zm4_install/vendor/auth/
+ZM4/zm4_install/vendor/pmca/
+ZM4/zm4_install/vendor/MANIFEST.json
+
+# Release binaries — publish via GitHub Releases only (git file limit 100MB)
+ZM4-release-*.dmg
+BODYDATA.DAT
+*.DAT
+截屏*.png
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>ZM4工作台</string>
+	<key>CFBundleExecutable</key>
+	<string>m4probe-console</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.zjp.ZM4.console</string>
+	<key>CFBundleName</key>
+	<string>ZM4工作台</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>ZM4 工作台需要读取工程目录（文稿下的 ZM4）以启动后端。</string>
+</dict>
+</plist>
