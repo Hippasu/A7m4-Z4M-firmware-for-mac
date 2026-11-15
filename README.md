@@ -1,5 +1,6 @@
 # A7m4(Z4M) firmware for mac
 基于大佬项目套壳适配mac端：https://github.com/Erlla/sony-a7m4-custom-firmware
+
 脱敏导出的公开树：只做环境自检与 USB 连接检测。  
 **不含**完整安装实现，也**不含**分阶段操作剧本。
 
