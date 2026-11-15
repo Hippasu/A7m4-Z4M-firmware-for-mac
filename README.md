@@ -33,7 +33,6 @@ cd ZM4
 python3 -m m4probe --doctor          # 环境自检
 python3 -m m4probe.detect            # 连接检测（只读，不写相机）
 python3 -m m4probe.detect --json
-python3 -m m4probe.console --port 8765   # 诊断页（非安装工作台）
 ```
 
 连接检测：判断是否以 USB 大容量存储（MSC）接到本机、是否为 ILCE-7M4。
