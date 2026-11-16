@@ -17,7 +17,6 @@ PRIVATE/M4ROOT/GENERAL/LUT/
 
 导入自定义音频
 将SOUNDS.zip中的音频文件文件放入 SD 卡：
-
 PRIVATE/M4ROOT/GENERAL/SOUNDS/
 进入相机 拍摄 → 快门/禁音 → 自定义快门声或自定义对焦声音，选择存储卡和音频文件进行导入。
 
