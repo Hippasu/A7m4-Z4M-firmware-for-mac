@@ -21,18 +21,31 @@ PRIVATE/M4ROOT/GENERAL/SOUNDS/
 进入相机 拍摄 → 快门/禁音 → 自定义快门声或自定义对焦声音，选择存储卡和音频文件进行导入。
 
 ## mac常见问题
+
 -无法打开安装包提示安装包已损坏
+
 ①打开安装限制，mac ios默认不开启非应用商店来源安装权限
+
 终端：sudo spctl --master-disable
+
 ②接着打开【系统偏好设置】，选择【安全性与隐私】，选择【通用】，可以看到【任何来源】选定
+
 ③重新打开文件进行安装。
+
 <img width="1432" height="984" alt="20261116-161919" src="https://github.com/user-attachments/assets/107e2c73-db20-4511-9e36-bc545617a045" />
+
 如果此时依然提示安装包损坏
+
 ①在终端粘贴复制输入命令（注意最后有一个空格）：
+
 终端：sudo xattr -r -d com.apple.quarantine 先不要按回车！先不要按回车！先不要按回车！先不要按回车！
+
 ②然后打开 “访达”（Finder）进入 “应用程序” 目录，找到该软件图标，将图标拖到刚才的终端窗口里面，会得到如下组合：
+
 sudo xattr -r -d com.apple.quarantine /Applications/XXXtrom.app
+
 ③回到终端窗口按回车，输入系统密码回车即可。
+
 ④重新打开文件进行安装。
 
 ## 许可与边界
